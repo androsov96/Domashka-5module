@@ -1,7 +1,7 @@
 class House:
     def __init__(self, name_floor, number_of_floors):
-        self.name_floor = name_floor
-        self.number_of_floors = number_of_floors
+        self.name_floor = str(name_floor)
+        self.number_of_floors = int(number_of_floors)
 
 
     def go_to(self, new_floor):
